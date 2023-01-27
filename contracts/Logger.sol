@@ -17,4 +17,5 @@ pure: doesn't make any changes to the state */
 
 //* private : Can only be accessed within the contract
 //* internal : Can only be accessed within the contracts that are inheriting from this
-//* public : Can only be accessed within the contracts that are inheriting from this
+//* public : Can only access from anywhere
+//* external : can be accessed by other contracts
